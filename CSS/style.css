@@ -59,7 +59,7 @@ main {
 .filtro{
     z-index: 1;
     background: url("../img/ruido.gif");
-    opacity: 40%;
+    opacity: 30%;
     height: 100%;
     width: 100%;
     position: absolute;
