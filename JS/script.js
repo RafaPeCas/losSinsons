@@ -21,6 +21,8 @@ function cambiar() {
         tv.classList.add("oculto")
     }
 
+    telesound.play();
+
 };
 
 let i=0;
@@ -31,5 +33,5 @@ function canales(gax){
     if (i<0) i= imagenes.length-1;
     console.log(i+" Va a actuar")
     tv.src= imagenes[i];
-
+    nextsound.play();
 }
